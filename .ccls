@@ -1,0 +1,9 @@
+clang
+-target
+avr
+-mmcu=attiny13a
+-nostdinc
+-ffreestanding
+-isystem/usr/avr/include
+%h -x
+%h c-header
