@@ -1,2 +1,5 @@
 .ccls-cache/
 out/
+pcb/*-backups/
+pcb/#auto_saved_files#
+pcb/fp-info-cache
