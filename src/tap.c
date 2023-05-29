@@ -4,7 +4,7 @@
 #define LED PB2
 #define OUT PB4
 #define DELAY 80
-#define SENSIVITY 23
+#define SENSIVITY 6
 
 int main() {
   ADMUX = _BV(REFS0) |               // Internal voltage reference
